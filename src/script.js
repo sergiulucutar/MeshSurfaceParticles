@@ -101,6 +101,10 @@ function withMeshSampler (mesh) {
     const tempColor = new THREE.Color();
     for (let i = 0; i < 7000; i++) {
         sampler.sample(tempPosition, tempNormal, tempColor);
+        /**
+         * Here I substract some hardcoded values from X and Z to match the inital position of the mesh
+         * I coulnd't figure it out how to properly offset them.
+         */
         vertices.push(tempPosition.x - 1, tempPosition.y, parseFloat(tempPosition.z.toFixed(2) - 1.652))
         tempColor.convertLinearToSRGB()
         colors.push(tempColor.r/255, tempColor.g/255, tempColor.b/255)
