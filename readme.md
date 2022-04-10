@@ -15,5 +15,5 @@ Once I switch to vertex color, all the colors became darker. The biggest impact 
 [https://threejs.org/examples/?q=points#webgl_custom_attributes_points2](https://threejs.org/examples/?q=points#webgl_custom_attributes_points2)
 
 ## The "Fun" side
-I accidentally opened the glb from the original website in MS 3D Viewer and I noticed that by clicking the Vertec Color checkbox, the model colors would toggle. This is what made me go on the Vertex Color path.
+I accidentally opened the glb from the original website in MS 3D Viewer and I noticed that by clicking the Vertex Color checkbox, the model's colors would toggle. This is what made me go on the Vertex Color path.
 
