@@ -11,6 +11,7 @@ Once I switch to vertex color, all the colors became darker. The biggest impact 
 
 ## Resources
 [https://tympanus.net/codrops/2021/08/31/surface-sampling-in-three-js/](https://tympanus.net/codrops/2021/08/31/surface-sampling-in-three-js/)
+
 [https://threejs.org/examples/?q=points#webgl_custom_attributes_points2](https://threejs.org/examples/?q=points#webgl_custom_attributes_points2)
 
 ## The "Fun" side
